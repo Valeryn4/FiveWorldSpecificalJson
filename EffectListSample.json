@@ -1,0 +1,40 @@
+{
+    "list_effects" : [
+        {
+            "__commets" : "плюс 1 рана против Pflug",
+            "id" : 0,
+            "type" : "add_damage",
+            "trigger_type" : "stan",
+            "trigger_activation" : "now",
+            "action" : "vs",
+            "trigger" : "pflug",
+            "bonuses" : ["bleed"],
+            "negative" : []
+        
+        },
+        {
+            "__commets" : " плюс 1 скр против Langort;",
+            "id" : 1,
+            "type" : "add_speed",
+            "trigger_type" : "stan",
+            "trigger_activation" : "now",
+            "action" : "vs",
+            "trigger" : "langort",
+            "bonuses" : ["speed"],
+            "negative" : []
+        
+        },
+        {
+            "__commets" : "защищает от всех ран;",
+            "id" : 2,
+            "type" : "def",
+            "trigger_type" : "any",
+            "trigger_activation" : "now",
+            "action" : "last",
+            "trigger" : "bleed",
+            "bonuses" : [],
+            "negative" : []
+        
+        }
+    ]
+}
