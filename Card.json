@@ -1,0 +1,18 @@
+{
+    "__commets" : "Карта имеет уникальный id, имя, описание, тип, цену, уровень и набор уникальных параметров. Набор параметров строится на основании типа карты",
+    "id" : "{уникальный ID}",
+    "name" : "{имя карты}",
+    "description" : "{описание карты}",
+    "type" : "{тип карты zuphehten/war/fight/special/characteristic/weapon}",
+    "price" : "{стоимость карты}",
+    "level_card" : "{уровень карты}",
+    "parameters" :
+    {
+        "move" : "{движение вперед или назад forward/bachward}",
+        "damage" : ["{массив урона. bleed/break/flip_card/skip"],
+        "speed" : "{скорость карты}",
+        "speed_type" : "{тип скорость red/yellow/black/bold_black}",
+        "fullen" : "{сила карты St/Sw/none}",
+        "effects" : ["{массив эффектов, особые карты имеют остальные поля null}"]
+    }
+}
