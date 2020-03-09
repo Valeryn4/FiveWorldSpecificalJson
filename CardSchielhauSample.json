@@ -1,0 +1,17 @@
+{
+    "id" : 0,
+    "name" : "Schielhau",
+    "description" : "Косой удар",
+    "type" : "zuphehten",
+    "price" : 13,
+    "level_card" : 3,
+    "parameters" :
+    {
+        "move" : "forward",
+        "damage" : ["bleed", "bleed", "bleed"],
+        "speed" : 2,
+        "speed_type" : "black",
+        "fullen" : "none",
+        "effects" : [0, 1, 2]
+    }
+}
