@@ -31,7 +31,7 @@
         "damage" : [],
         "speed" : 1,
         "speed_type" : "red",
-        "speed_weak" : "false"
+        "speed_weak" : "false",
         "fullen" : "none",
         "effects" : []
     }
