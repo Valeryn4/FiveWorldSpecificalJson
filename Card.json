@@ -15,4 +15,24 @@
         "fullen" : "{сила карты St/Sw/none}",
         "effects" : ["{массив эффектов, особые карты имеют остальные поля null}"]
     }
+},
+
+
+{
+    "id" : 0,
+    "name" : "",
+    "description" : "",
+    "type" : "zuphehten",
+    "price" : 0,
+    "level_card" : 1,
+    "parameters" :
+    {
+        "move" : "forward",
+        "damage" : [],
+        "speed" : 1,
+        "speed_type" : "red",
+        "speed_weak" : "false"
+        "fullen" : "none",
+        "effects" : []
+    }
 }
